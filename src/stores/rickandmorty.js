@@ -1,6 +1,5 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
-import { useFetch } from '@vueuse/core'
 
 export const useCharactersStore = defineStore('characters', () => {
 
