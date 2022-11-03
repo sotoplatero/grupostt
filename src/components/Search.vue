@@ -13,8 +13,8 @@
 </script>
 
 <template>
-	<form @submit.prevent="onSubmit" class="flex space-x-2">
-		<div class="w-60">
+	<form @submit.prevent="onSubmit" class="flex space-x-1">
+		<div class="">
 			<input v-model="q" placeholder="Search Character">
 		</div>
 		<button class="primary w-auto">
@@ -24,4 +24,8 @@
 		</button>
 	</form>
 </template>
+
+<style scoped>
+	input{ @apply w-40 sm:w-60 }
+</style>
 

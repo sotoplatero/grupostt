@@ -26,7 +26,7 @@
 </script>
 
 <template>
-	<form class="my-10 border border-gray-600 p-8 space-y-4" @submit.prevent="onSubmit" >
+	<form class="" @submit.prevent="onSubmit" >
 		<div class="py-2">Write your comment about <b>{{character.name}}</b></div>
 		<div>
 			<label>Nombre</label>
@@ -41,3 +41,7 @@
 		</button>
 	</form>
 </template>
+
+<style>
+	form { @apply my-10 border border-gray-600 p-4 sm:p-8 space-y-4 }
+</style>

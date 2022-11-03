@@ -18,7 +18,7 @@
 <template>
   <section class="card">
 
-    <CharacterImage :character="character" class="w-1/2 mx-auto border border-gray-700"/>
+    <CharacterImage :character="character" class="sm:w-3/5  mx-auto border border-gray-700"/>
 
     <h1>{{character.name}}</h1>
 

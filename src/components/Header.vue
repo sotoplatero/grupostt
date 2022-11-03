@@ -3,7 +3,7 @@
 </script>
 <template>
     <header class="flex items-center justify-between mb-12 py-3">
-    	<a href="/" class="flex items-center text-xl space-x-2 font-extrabold">
+    	<a href="/" class="flex items-center text-xl space-x-2 font-extrabold text-inherit">
 	    	<Logo />
 	    	<span>Rick and Morty</span>	
     	</a>

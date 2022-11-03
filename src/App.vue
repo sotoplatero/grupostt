@@ -5,9 +5,11 @@ import Header from '@/components/Header.vue'
 
 <template>
   <div class="w-full max-w-screen-lg mx-auto min-h-screen">
-    <Header />
-    <main>
-      <RouterView />
-    </main>
+    <div class="mx-2">
+      <Header />
+      <main>
+        <RouterView />
+      </main>
+    </div>
   </div>
 </template>

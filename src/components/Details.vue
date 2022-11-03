@@ -25,7 +25,11 @@
       </div>
       <div>
         <dt>Gender</dt>
-        <dd>{{character.gender}}</dd>
+        <dd>
+          <RouterLink :to="`/characters/?gender=${character.gender}`">
+            {{character.gender}}
+          </RouterLink>
+        </dd>
       </div>
       <div v-if="character.location">
         <dt>Location</dt>

@@ -53,7 +53,7 @@
 
 <style scoped>
   .card{
-    @apply border border-gray-700 transition  hover:rotate-2 text-inherit hover:no-underline;
+    @apply w-full border border-gray-700 transition  hover:rotate-2 text-inherit hover:no-underline;
   }
   img{
     @apply border-b border-gray-700

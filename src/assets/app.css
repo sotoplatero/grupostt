@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 input, select, button, textarea {
-	@apply border border-gray-700 p-3 w-full;
+	@apply border border-gray-700 p-2 sm:p-3 w-full;
 }
 label { @apply block text-left text-sm font-bold }
 button {
