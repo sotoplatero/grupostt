@@ -23,6 +23,6 @@ export const useCharacterStore = defineStore('character', () => {
     finally { this.loading = false }
   }  
 
-  return { character, getCharacter }  
+  return { character, getCharacter, loading, error }  
 
 })
