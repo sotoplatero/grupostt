@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+    import Logo from '@/components/Logo.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="h-full grow flex items-center justify-center">
+    <div>
+      Damian Soto Platero
+    </div>
   </main>
 </template>
