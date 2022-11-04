@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import Logo from '@/components/Logo.vue'
+    import { RouterLink } from 'vue-router'      
 </script>
 
 <template>
@@ -17,9 +18,9 @@
         <li><a href="https://github.com/sotoplatero/grupostt-back" target="_blank">Repositorio Back</a></li>
       </ul>
 
-      <a href="/characters" class="cta">
+      <RouterLink to="/characters" class="cta">
         Comenzar
-      </a >
+      </RouterLink>
 
     </div>
   </main>
