@@ -11,9 +11,8 @@
       <p>Damián Soto Platero</p>
 
       <ul class="mt-4">
-        <li><a href="https://grupostt.vercel.app" target="_blank">FRONT serverless (Vercel)</a></li>
-        <li><a href="https://grupostt-back.vercel.app" target="_blank">BACK serverless (Vercel)</a></li>
-        <li><a href="https://grupostt-back.vercel.app" target="_blank">FRONT/BACK Docker</a></li>
+        <li><a href="https://grupostt.vercel.app" target="_blank">FRONT deploy serverless (Vercel)</a></li>
+        <li><a href="https://grupostt-back.vercel.app" target="_blank">BACK deploy serverless (Vercel)</a></li>
         <li><a href="https://github.com/sotoplatero/grupostt" target="_blank">Repositorio Front</a></li>
         <li><a href="https://github.com/sotoplatero/grupostt-back" target="_blank">Repositorio Back</a></li>
       </ul>
