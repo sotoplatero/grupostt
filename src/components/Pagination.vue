@@ -47,7 +47,7 @@
 		@apply flex justify-center my-8 space-x-4 
 	}
 	nav > a {
-		@apply border p-3 border-gray-700 text-inherit  transition-all duration-300 last:hover:translate-x-2 first:hover:-translate-x-2;
+		@apply border p-3 border-gray-700 text-inherit  transition-all duration-500 last:hover:translate-x-2 first:hover:-translate-x-2;
 	}
 	nav > span {
 		@apply border p-3 border-gray-400 text-gray-400
