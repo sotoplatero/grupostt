@@ -17,6 +17,8 @@
         <li><a href="https://github.com/sotoplatero/grupostt-back" target="_blank">Repositorio Back</a></li>
       </ul>
 
+      <p class="my-2">Nota: Back con <a href="https://nitro.unjs.io/" target="_blank">nitro</a> y base de datos el servicio <a href="https://deta.sh" target="_blank">Deta</a> </p>
+
       <RouterLink to="/characters" class="cta">
         Comenzar &raquo
       </RouterLink>
