@@ -18,7 +18,7 @@
       </ul>
 
       <RouterLink to="/characters" class="cta">
-        Comenzar
+        Comenzar &raquo
       </RouterLink>
 
     </div>
@@ -27,5 +27,5 @@
 
 <style scoped>
   h1{ @apply text-2xl font-bold}
-  a.cta{ @apply block bg-lime-600 text-white p-3 font-bold mt-6 border-lime-700 hover:bg-lime-700 }
+  a.cta{ @apply text-lg block bg-lime-600 text-white p-3 font-bold mt-6 border-lime-700 hover:bg-lime-700 }
 </style>

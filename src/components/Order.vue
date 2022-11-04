@@ -20,7 +20,7 @@
     </svg>
 
 
-		<select v-model="orderBy" class="capitalize font-bold border-0 px-0 ">
+		<select v-model="orderBy" class="capitalize bg-white font-semibold border-0 px-0 ">
 			<option 
 				v-for="option in options" 
 				:option="option" 
