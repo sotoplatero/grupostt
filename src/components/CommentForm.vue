@@ -26,8 +26,8 @@
 </script>
 
 <template>
+	<div class="pt-4 text-center">Write your comment about <b>{{character.name}}</b></div>
 	<form class="" @submit.prevent="onSubmit" >
-		<div class="py-2">Write your comment about <b>{{character.name}}</b></div>
 		<div>
 			<label>Nombre</label>
 			<input type="text" v-model="author" placeholder="Type you name" name="name">

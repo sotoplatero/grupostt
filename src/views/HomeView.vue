@@ -5,17 +5,22 @@
 <template>
   <main class="h-full grow flex items-center justify-center">
     <div class="text-center">
+
       <h1>Prueba Técnica</h1>
       <p>Damián Soto Platero</p>
+
       <ul class="mt-4">
-        <li><a href="https://grupostt.vercel.app">Servicio desplegado serverless (Vercel)</a></li>
-        <li><a href="https://grupostt.vercel.app">Servicio desplegado Docker</a></li>
-        <li><a href="https://grupostt.vercel.app">Repositorio Front</a></li>
-        <li><a href="https://grupostt.vercel.app">Repositorio Back</a></li>
+        <li><a href="https://grupostt.vercel.app" target="_blank">FRONT serverless (Vercel)</a></li>
+        <li><a href="https://grupostt-back.vercel.app" target="_blank">BACK serverless (Vercel)</a></li>
+        <li><a href="https://grupostt-back.vercel.app" target="_blank">FRONT/BACK Docker</a></li>
+        <li><a href="https://github.com/sotoplatero/grupostt" target="_blank">Repositorio Front</a></li>
+        <li><a href="https://github.com/sotoplatero/grupostt-back" target="_blank">Repositorio Back</a></li>
       </ul>
+
       <a href="/characters" class="cta">
         Comenzar
       </a >
+
     </div>
   </main>
 </template>

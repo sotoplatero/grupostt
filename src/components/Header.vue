@@ -24,5 +24,5 @@
 <style scoped>
 	header { @apply flex items-center justify-between mb-12 py-3}
 	a.brand { @apply flex items-center text-base leading-tight sm:text-xl space-x-2 font-extrabold text-inherit }
-	nav a { @apply border px-4 py-3 border-gray-600 font-semibold }
+	nav a { @apply border px-4 py-3 border-gray-600 font-bold }
 </style>

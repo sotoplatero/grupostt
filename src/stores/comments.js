@@ -1,6 +1,8 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
+const URL_BACK = import.meta.env.VITE_URL_BACK || 'https://localhost:3000'
+
 export const useCommentsStore = defineStore('comments', () => {
 
   const comments = ref([])
@@ -11,7 +13,7 @@ export const useCommentsStore = defineStore('comments', () => {
 
     this.loading = true
 
-    const url = `${import.meta.env.VITE_URL_BACK}/character/${comment.character_id}/comments`
+    const url = `${URL_BACK}/character/${comment.character_id}/comments`
 
     try {
 
@@ -39,7 +41,7 @@ export const useCommentsStore = defineStore('comments', () => {
 
     this.loading = true
 
-    const url = `${import.meta.env.VITE_URL_BACK}/character/${character_id}/comments`
+    const url = `${URL_BACK}/character/${character_id}/comments`
 
     try {
 
